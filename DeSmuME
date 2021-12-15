@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Note i didnt make the emulator i just made it embedable find the source here: https://github.com/44670/desmume-wasm -->
 <html lang="en">
     <head>
     <meta charset="utf-8">
@@ -26,7 +27,7 @@
         }
 
         body {
-            background-color: black;
+            background-color: rgb(43, 43, 43);
             color: white;
             padding: 0;
             margin: 0;
@@ -112,13 +113,13 @@
         }
     </style>
     <div id="welcome" class="menu">
-        <h1>DS Player</h1>
         <div id="loading" hidden="">Loading...</div>
         <div id="loadrom">
             <input id="rom" type="file" hidden="">
             <button style="width:calc(100% - 2em);margin: 1em;" onclick="$id('rom').click()">Choose File...</button>
         </div>
         <hr>
+<a name='top' id="top></a>
         <p><a href="#" onclick="uiSwitchTo('menu')">⚙ Settings...</a></p>
         <div id="ios-hint" hidden="">
             Due to iOS Safari limitations, you may need to add this page to your home screen before you can save the
