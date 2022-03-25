@@ -1,4 +1,4 @@
-<-- not mine this is from https://ds.44670.org/gba/ the github is https://github.com/44670/vba-next-wasm -->
+<!-- not mine this is from https://ds.44670.org/gba/ the github is https://github.com/44670/vba-next-wasm -->
 <html lang="en"><head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
